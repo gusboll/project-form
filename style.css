@@ -1,0 +1,71 @@
+@font-face{
+    font-family: norse-bold;
+    src: url('fonts/Norse-Bold.otf')
+}
+
+@font-face{
+    font-family: roboto;
+    src: url('fonts/Roboto/Roboto-VariableFont_wdth\,wght.ttf')
+}
+
+body {
+    font-family: roboto, Arial;
+    height: 100vh;
+}
+
+.main-content{
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+}
+
+.footer>p{
+    margin: 2px;
+}
+
+.image-container{
+    background-image: url(./cat.jpg);
+    background-size: cover;
+    width: 100vh;
+    height: 100vh;
+    align-content: center;
+}
+
+.text,.forms {
+    background: black;
+    opacity: 0.6;
+    font-weight: 500;
+    margin: 25px 10px 25px 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/*add the background opacity only for the `p` in the text*/
+
+
+input:invalid{
+    border-color: red;
+}
+
+input:valid{
+    border-color: green;
+}
+
+button {
+    color: rgb(255, 255, 255); font-size: 16px; line-height: 16px; padding: 8px; border-radius: 10px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(35, 136, 203) 50%, rgb(20, 78, 117) 100%); box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px; border: 2px solid rgb(28, 110, 164); display: inline-block;
+}
+
+button:hover {
+    background: #1C6EA4; 
+}
+button:active {
+    background: #144E75; 
+}

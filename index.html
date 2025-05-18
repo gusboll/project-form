@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up form</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="main-content">
+        <div class="image-container">
+            <div class="over-background">
+                <div class="text">
+                    <p>Animal adoption is an act of responsibility and compassion that gives abandoned dogs and cats a new chance at life.</p>
+                    <p>Sign up and help the animals!</p>
+                </div>
+                <div class="forms">
+                    <form action="#" method="post">
+                       <legend>Fill in your information to register.</legend>
+                       <fieldset>
+                       <label for="firstname">First name:</label>
+                       <input type="text" id="firstname" name="firstname" placeholder="John" autofocus required>
+                       <label for="lastname">Last name:</label>
+                       <input type="text" id="lastname" name="lastname" placeholder="Doe" required>
+                       </fieldset>
+                       <fieldset>
+                       <label for="email">Email:</label>
+                       <input type="email" id="email" name="email" placeholder="johndoe@ex.com" required>
+                       <label for="phonenumber">Phone number:</label>
+                       <input type="tel" id="phonenumber" name="phonenumber" placeholder="12456-7890" minlength="10" maxlength="10" required>
+                       </fieldset>
+                       <fieldset>
+                        <legend>Preference of adoption</legend>
+                       <label for="cat">Cat:</label>
+                       <input type="checkbox" id="cat" name="checkcat">
+                       <label for="dog">Dog:</label>
+                       <input type="checkbox" id="dog" name="checkdog">
+                       </fieldset>
+                       <fieldset>
+                       <label for="password">Password</label>
+                        <input type="password" id="password" name="password" required>
+                       <label for="confirmpassword">Confirm password</label>
+                        <input type="password" id="confirmpassword" name="confirmpassword" required>
+                        </fieldset>
+                        <fieldset>
+                        <button type="submit">Submit</button>
+                        </fieldset>
+
+
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright @ 2025 <a href="https://github.com/gusboll">Gusboll</a></p>
+        <p>The Odin Project</p>
+    </div>
+</body>
+</html>
